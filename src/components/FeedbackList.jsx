@@ -1,6 +1,6 @@
 import React from "react";
 
-function FeedbackList() {
+function FeedbackList({ feedback }) {
   return <div>List</div>;
 }
 
