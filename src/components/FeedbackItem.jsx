@@ -12,7 +12,6 @@ function FeedbackItem() {
     <div className="card">
       <div className="num-display">{rating}</div>
       <div className="text-display">{text}</div>
-      <button onClick={handleClick}>10</button>
     </div>
   );
 }
