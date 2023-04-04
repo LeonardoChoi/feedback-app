@@ -1,7 +1,17 @@
 import React from "react";
 
 function Button({ children, version, type, isDisabled }) {
-  return <div></div>;
+  return (
+    <button type={type} disabled={isDisabled} className={`btn btn-${version}`}>
+      {children}
+    </button>
+  );
 }
+
+Button.defaultProps = {
+  version: "primary",
+  isDisabled: "false",
+  type: "button",
+};
 
 export default Button;
