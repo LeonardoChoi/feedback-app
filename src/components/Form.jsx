@@ -18,6 +18,7 @@ function FeedbackForm() {
             onChange={handleTextChange}
             type="text"
             placeholder="Write a review"
+            value={text}
           />
           <button type="submit">Send</button>
         </div>
@@ -26,4 +27,4 @@ function FeedbackForm() {
   );
 }
 
-export default Form;
+export default FeedbackForm;
