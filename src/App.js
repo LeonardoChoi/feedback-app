@@ -16,6 +16,7 @@ function App() {
   };
 
   const addFeedback = (newFeedback) => {};
+
   return (
     <>
       <Header />
