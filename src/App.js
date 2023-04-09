@@ -15,11 +15,12 @@ function App() {
     }
   };
 
+  const addFeedback = (newFeedback) => {};
   return (
     <>
       <Header />
       <div className="container">
-        <FeedbackForm />
+        <Form handleAdd={addFeedback} />
         <FeedbackStats feedback={feedback} />
         <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
       </div>
